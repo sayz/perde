@@ -41,7 +41,7 @@ kullanıyoruz
             rake imagemagick jpegoptim pngnq chromium-browser \
             python-jinja2 python-markdown python-docutils python-pygments
         wget --no-check-certificate \
-            https://github.com/downloads/19/tepsi/landslide_0.0_all.deb
+            https://github.com/downloads/19/perde/landslide_0.0_all.deb
         sudo dpkg -i landslide_0.0_all.deb
 
 - Önerilen paketleri kurun (bu aşamada hata oluşmuşsa göz ardı edin)
@@ -52,18 +52,18 @@ kullanıyoruz
 
 # Hazırla
 
-- GitHub hesabınızda `tepsi` adında bir depo açın.
+- GitHub hesabınızda `perde` adında bir depo açın.
 
-        mkdir tepsi && cd tepsi
+        mkdir perde && cd perde
         git init
-        git remote add origin git@github.com:<kullanıcı>/tepsi.git
+        git remote add origin git@github.com:<kullanıcı>/perde.git
         git symbolic-ref HEAD refs/heads/gh-pages
         rm -f .git/index && git clean -fdx
         git push origin gh-pages
 
-- 19 `tepsi` deposundan ilkleme yapın
+- 19 `perde` deposundan ilkleme yapın
 
-        git remote add upstream git://github.com/19/tepsi.git
+        git remote add upstream git://github.com/19/perde.git
         git pull upstream/master
         git push origin master
 

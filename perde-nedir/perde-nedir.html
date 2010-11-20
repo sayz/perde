@@ -1215,7 +1215,7 @@ kullanıyoruz</p>
     rake imagemagick jpegoptim pngnq chromium-browser \
     python-jinja2 python-markdown python-docutils python-pygments
 wget --no-check-certificate \
-    https://github.com/downloads/19/tepsi/landslide_0.0_all.deb
+    https://github.com/downloads/19/perde/landslide_0.0_all.deb
 sudo dpkg -i landslide_0.0_all.deb
 </code></pre>
 </li>
@@ -1250,18 +1250,18 @@ sudo dpkg -i landslide_0.0_all.deb
             
             <section><ul>
 <li>
-<p>GitHub hesabınızda <code>tepsi</code> adında bir depo açın.</p>
-<pre><code>mkdir tepsi &amp;&amp; cd tepsi
+<p>GitHub hesabınızda <code>perde</code> adında bir depo açın.</p>
+<pre><code>mkdir perde &amp;&amp; cd perde
 git init
-git remote add origin git@github.com:&lt;kullanıcı&gt;/tepsi.git
+git remote add origin git@github.com:&lt;kullanıcı&gt;/perde.git
 git symbolic-ref HEAD refs/heads/gh-pages
 rm -f .git/index &amp;&amp; git clean -fdx
 git push origin gh-pages
 </code></pre>
 </li>
 <li>
-<p>19 <code>tepsi</code> deposundan ilkleme yapın</p>
-<pre><code>git remote add upstream git://github.com/19/tepsi.git
+<p>19 <code>perde</code> deposundan ilkleme yapın</p>
+<pre><code>git remote add upstream git://github.com/19/perde.git
 git pull upstream/master
 git push origin master
 </code></pre>
