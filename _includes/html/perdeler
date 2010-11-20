@@ -1,1 +1,8 @@
-TODO
+<!-- Perdeler start -->
+<div id="perdeler">
+  <h2>Perdeler</h2>
+  <ul class="perde">
+      <li><a href="perde-nedir/perde-nedir.html">Ve Perde!</a></li>
+  </ul>
+</div>
+<!-- Perdeler end -->
