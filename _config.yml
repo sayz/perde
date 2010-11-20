@@ -27,7 +27,7 @@ organization: 19
 # bu siteyi üreten github deposu (ör. roktas.github.com)
 # dikkat!  depo çoğunlukla <account>.github.com formundadır.  fakat başka
 # bir depo da olabilir.  url parametresi için yazılan açıklamayı okuyun.
-repository: 19.github.com
+repository: perde
 
 # üretilen sitenin web adresi ne?  ör. "http://roktas.github.com".
 # CNAME kaydımız varsa bu adresi giriyoruz.  dikkat!  bu site
@@ -69,13 +69,13 @@ param:
         # GnuPG kısa parmak izi (ör. DEADBEEF)
         gpg: ~
         # twitter adresi (ör. http://19.status.net/roktas)
-        twitter: http://19.status.net
+        twitter: ~
         # flick adresi (ör. http://flickr.com/photos/roktas)
-        flickr: http://flickr.com/photos/19
+        flickr: ~
         # facebook adresi (ör. http://facebook.com/roktas)
-        facebook: http://facebook.com/19
+        facebook: ~
         # özet akışı adresi (ör. http://feeds.feedburner.com/roktas)
-        feed: http://feeds.feedburner.com/19
+        feed: ~
 
         # --------------------------------------------------------------
         # sitede kullanılan bazı metinler
@@ -103,7 +103,7 @@ param:
         # google site içi arama kutusu
         google: ~
         # google analytics takip numarası (ör. UA-1234567-8
-        googleanalyticsid: UA-1669029-3
+        googleanalyticsid: ~
         # sayfa yorumları için disqus site kaydı (ör. roktas)
         disqus: ondokuz
         # GitHub şerit metni (ör. GitHub'dayım)
