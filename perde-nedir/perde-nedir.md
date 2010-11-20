@@ -279,7 +279,7 @@ GitHub'a yapıştırdığınızda kod parçalarını (gist) sunumda kullanabilir
 İlgili gist sayfasında "Embed" butonuna basarak elde ettiğiniz JavaScript
 kodunu slayta ekleyin.
 
-<!--<script src="https://gist.github.com/643575.js?file=.irbrc"></script>-->
+<script src="https://gist.github.com/643575.js?file=.irbrc"></script>
 
 **Dikkat!**  Gist bağlantısı eklemişseniz sunum sırasında ağ bağlantısına
 ihtiyacınız olacak.  Gist kullanılması sunumun çok yavaş yüklenmesine neden
