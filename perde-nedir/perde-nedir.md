@@ -275,7 +275,7 @@ Başka:
 
 # Gist
 
-GitHub'a yapıştırdığınızda kod parçalarını (gist) sunumda kullanabilirsiniz.
+GitHub'a yapıştırdığınız kod parçalarını (gist) sunumda kullanabilirsiniz.
 İlgili gist sayfasında "Embed" butonuna basarak elde ettiğiniz JavaScript
 kodunu slayta ekleyin.
 
