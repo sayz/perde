@@ -51,5 +51,5 @@ end
 desc "Değişen slaytları üret"
 task :default => [:optim,
   # sadece alt dizinlerdeki markdown dosyalar
-  *FileList["*/*.md"].map { |f| f.sub(/[.]md$/, '.html') }
+  *FileList["*/*.md"].reject { |f| f =~ /^_/ }.map { |f| f.sub(/[.]md$/, '.html') }
 ]
